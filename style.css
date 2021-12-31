@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
@@ -8,22 +8,30 @@ html {
   color: white;
 }
 
-body {
+#root {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+#title-card {
+
+  display: flex;
   align-items: center;
+  /* justify-content: space-around; */
+  padding-top: 10rem;
 }
 
-td {
-  background-color: grey;
-  height: 50px;
-  width: 50px;
+#headshot {
+  width: 600px;
+  size: auto;
 }
 
-.red {
+.large-font {
+  font-size: 60px;
+}
+
+#abc {
+  margin: 10rem;
   background-color: red;
-}
-
-.blue {
-  background-color: blue;
 }
