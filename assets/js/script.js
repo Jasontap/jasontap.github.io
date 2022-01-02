@@ -53,7 +53,7 @@ window.addEventListener('hashchange', ()=> {
         </div>
         <img 
           id="headshot" 
-          src="public/images/IMG_9151_cropped_1000px.jpg" 
+          src="assets/images/IMG_9151_cropped_1000px.jpg" 
           alt="Jason Williams" 
           class="img-circle" />
       </div>
