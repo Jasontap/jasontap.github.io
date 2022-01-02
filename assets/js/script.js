@@ -1,4 +1,6 @@
 const root = document.querySelector('#root');
+const navbar = document.querySelector('nav');
+const homeTarget = document.querySelector('li.active');
 
 const homePage = () => {
   return `
@@ -67,18 +69,6 @@ const aboutPage = () => {
           </p>
         </div>
       </div>
-      <div class="sub-card right">
-        <p>
-          Currently I am a lead technician at a security company based out of New Jersey. Here, I 
-          troubleshoot all different kinds of problems, whether it is related to programming, 
-          hardware, or connectivity, my purpose is to solve problems. I also relieve responsibilities 
-          of my direct manager and some roles in other departments by offering full independent 
-          service which includes designing, analyzing, building, and repairing systems from local 
-          system devices to the internet of things. In order to better serve customers and the 
-          company, I&#39;ve sought multiple certifications in Fire Alarm Systems and assorted 
-          intrusion and access control systems.
-        </p>
-      </div>
     </div>
   `
 }
@@ -92,21 +82,31 @@ const contactPage = () => {
   `
 }
 
-let hash = '';
-
 window.addEventListener('hashchange', ()=> {
   const curHash = window.location.hash.slice(1)
-  if (curHash !== hash) {
-    hash = curHash;
-  }
-  if (hash === 'about') {
+  if (curHash === 'about') {
     return root.innerHTML = aboutPage();
   }
-  if (hash === 'contact') {
+  if (curHash === 'contact') {
     return root.innerHTML = contactPage();
   }
   else {
     root.innerHTML = homePage();
+  }
+})
+
+let selected = homeTarget;
+
+const toggleSelected = () => {
+  
+}
+
+navbar.addEventListener('click', (ev)=> {
+  const parentNode = ev.target.parentNode;
+  if (parentNode.tagName === 'LI' && selected !== parentNode) {
+    selected.className = '';
+    selected = parentNode;
+    selected.className = 'active';
   }
 })
 
