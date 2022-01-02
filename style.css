@@ -34,7 +34,7 @@
   font-size: 60px;
 }
 
-#about {
+#about-me {
   display: flex;
   /* padding-top: 30px;
   padding-bottom: 30px; */
@@ -55,4 +55,15 @@
 .left {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.div-bar {
+  width: 50px;
+  height: 5px;
+  background-color: aquamarine;
+  margin-bottom: 30px;
+}
+
+#contact {
+  height: 2000px;
 }

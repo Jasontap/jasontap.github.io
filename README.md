@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Welcome to my webpage
 
-You can use the [editor on GitHub](https://github.com/Jasontap/jasontap.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## My name is 
+# Jason Williams
+I am a Software Engineer experienced in Javascript, HTML5, CSS3, Node.js, React, Redux, Express,  
+Sequelize ORM, PostgreSQL, Web Sockets, Flex Box, and Bootstrap3.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+After completing the immersive coding bootcamp at Fullstack Academy in April 2021,  
+It has become my passion to continue learning, growing, and taking on new challenges as a professional  
+developer.  
+I am seeking employment with a company that not only pushes the boundaries of technology but also  
+inspires me to be the best software engineer I can be.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jasontap/jasontap.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
