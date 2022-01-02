@@ -26,18 +26,21 @@
 }
 
 #headshot {
+  flex: none;
   width: 50%;
   size: auto;
 }
 
+#title-card-content > h4, #title-card-content > h5 {
+  font-size: 3vw;
+}
+
 .large-font {
-  font-size: 60px;
+  font-size: 7vw;
 }
 
 #about-me {
   display: flex;
-  /* padding-top: 30px;
-  padding-bottom: 30px; */
   color: inherit;
   margin-bottom: 30px;
   background-color: #eee;
@@ -66,4 +69,8 @@
 
 #contact {
   height: 2000px;
+}
+
+@media screen and (max-width: 800px) {
+  
 }
