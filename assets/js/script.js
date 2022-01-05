@@ -19,23 +19,17 @@ const homePage = () => {
         class="img-circle" />
     </div>
     
-    <div id="about-me">
-      <div class="sub-card left">
-        <div>
-          <h2>About Me</h2>
-          <div class="div-bar"></div>
-          <p>
-            I am a software engineer looking to break into the software development industry. After 
-            completing the immersive coding bootcamp at Fullstack Academy in April 2021, It is now 
-            my passion to continue learning, growing, and taking on new challenges as a professional 
-            developer. I am seeking employment with a company that not only pushes the boundaries of 
-            technology but also inspires me to be the best software engineer I can be.
-          </p>
-        </div>
-      </div>
-      <div class="sub-card right">
-        
-      </div>
+    <div id="about-me" class="right">
+      <h2><a href="#about">About Me</a></h2>
+      <div class="div-bar"></div>
+      <p>
+        Experienced software engineer focused on the Javascript language and frameworks.
+      </p>
+      <p>
+        After completing the immersive coding bootcamp at Fullstack Academy in April 2021, <br/>
+        It is now my passion to continue learning, growing, and taking on new challenges <br/>
+        as a professional developer. 
+      </p>
     </div>
     
     <div id="contact">
@@ -87,10 +81,6 @@ window.addEventListener('hashchange', ()=> {
 })
 
 let selected = homeTarget;
-
-const toggleSelected = () => {
-  
-}
 
 navbar.addEventListener('click', (ev)=> {
   const parentNode = ev.target.parentNode;
